@@ -1,0 +1,101 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Sign-In Section */
+#signInSection {
+  background-color: #ffcccb;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+}
+
+#signInSection h2 {
+  color: #d9534f;
+}
+
+#signInSection input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9534f;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#signInSection button {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#signInSection button:hover {
+  background-color: #c9302c;
+}
+
+/* Video Upload Section */
+#uploadSection {
+  background-color: #d1ecf1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 20px auto;
+}
+
+#uploadSection h2 {
+  color: #007bff;
+}
+
+#uploadSection input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#uploadSection button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#uploadSection button:hover {
+  background-color: #0056b3;
+}
+
+/* Video List */
+#videoList {
+  background-color: #e6e6fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#videoList video {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
