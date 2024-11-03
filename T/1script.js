@@ -1,5 +1,5 @@
 function signIn() {
-  const username = document.getElementById("username").value;
+  const username = document.getElementById("username").valjue;
   if (username) {
     alert(`Welcome, ${username}!`);
     document.getElementById("signInSection").style.display = "none";
